@@ -33,6 +33,6 @@ Used Javascript and API drawn from OpenWeather One Call to produce the forecast 
 
 
 
-#### Website: 
+#### Website: https://darkholyphoenix.github.io/weather-dashboard/
 
-#### Repository Location: 
+#### Repository Location: https://github.com/darkholyphoenix/weather-dashboard
