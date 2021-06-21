@@ -1,0 +1,14 @@
+:root {
+    --primary: #0c08cc;
+    --secondary: #f0faf7;
+    --tertiary: #32e5f1;
+    --light-dark: #100542;
+    --dark: #38302e;
+    --border-radius: .3rem;
+}
+
+header {
+    padding: 3% 4%;
+    background-color: var(--dark);
+    color: var(--primary);
+      }

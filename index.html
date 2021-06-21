@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="sytle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+    <h1>Weather Dashboard</h1>
+    </header>
+
+
+<div class="container">
+    <div class= "row">
+        <div class="col-4">
+            <div class="card">
+                <h3 class="card-header text-uppercase">Search by City</h3>
+                <form id="user-form" class="card-body">
+            <label class="form-label" for="city">City</label>
+            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+            <button type="submit" class="btn">Search</button>
+            <div class = "citiesHere">
+
+            </div>
+          </form>
+        </div>
+    </div>
+
+    <div class="col-8">
+        <h2 class="subtitle">Showing weather for: <span id="repo-search-term"></span></h2>
+        <div id="cities-container" class="list-group">
+            <div class= "current"></div>
+        </div>
+
+        <br>
+        
+        <div id="forecast"> 
+            <div class = "divOne"></div>
+            <div class = "divTwo"></div>
+            <div class = "divThree"></div>
+            <div class = "divFour"></div>
+            <div class = "divFive"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
