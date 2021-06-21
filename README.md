@@ -1,4 +1,4 @@
-# weather Dashboard
+# Weather Dashboard
 
 This is a weather dashboard in development.
 
